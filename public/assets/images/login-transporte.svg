@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Caminhão boiadeiro na estrada">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00184d"/>
+      <stop offset=".5" stop-color="#1558c0"/>
+      <stop offset="1" stop-color="#f9b27a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1000" fill="url(#ceu)"/>
+  <circle cx="690" cy="540" r="105" fill="#fde7b0" opacity=".92"/>
+  <circle cx="690" cy="540" r="150" fill="#fde7b0" opacity=".15"/>
+
+  <!-- colinas -->
+  <path d="M0 650 C150 570 300 610 450 585 C600 560 760 615 900 575 V1000 H0Z" fill="#0a3d99"/>
+  <path d="M0 730 C200 660 350 705 520 676 C700 646 800 706 900 686 V1000 H0Z" fill="#062a6b"/>
+
+  <!-- cerca -->
+  <g stroke="#041f55" stroke-width="5" stroke-linecap="round">
+    <path d="M0 770 H900"/><path d="M0 790 H900"/>
+    <path d="M60 760 V800M200 760 V800M340 760 V800M480 760 V800M620 760 V800M760 760 V800M880 760 V800"/>
+  </g>
+
+  <!-- estrada -->
+  <rect y="810" width="900" height="190" fill="#27322c"/>
+  <path d="M0 905 H900" stroke="#f3efe2" stroke-width="6" stroke-dasharray="52 40"/>
+
+  <!-- marcador de localização -->
+  <g transform="translate(130 150)">
+    <path d="M45 0C20 0 0 20 0 45c0 34 45 70 45 70s45-36 45-70C90 20 70 0 45 0z" fill="#ffffff" opacity=".95"/>
+    <circle cx="45" cy="45" r="16" fill="#1f6b43"/>
+  </g>
+  <path d="M190 280 C260 360 380 330 450 400" fill="none" stroke="#ffffff" stroke-width="5" stroke-dasharray="4 14" stroke-linecap="round" opacity=".8"/>
+
+  <!-- caminhão boiadeiro -->
+  <g transform="translate(170 540)">
+    <ellipse cx="280" cy="292" rx="300" ry="16" fill="#000" opacity=".25"/>
+
+    <!-- carroceria -->
+    <rect x="0" y="0" width="390" height="226" rx="14" fill="#efe9da"/>
+    <!-- bois -->
+    <g fill="#7b4b2a">
+      <ellipse cx="85" cy="105" rx="34" ry="28"/><ellipse cx="190" cy="115" rx="34" ry="28"/><ellipse cx="295" cy="105" rx="34" ry="28"/>
+      <ellipse cx="55" cy="82" rx="12" ry="8"/><ellipse cx="115" cy="82" rx="12" ry="8"/>
+      <ellipse cx="160" cy="92" rx="12" ry="8"/><ellipse cx="220" cy="92" rx="12" ry="8"/>
+      <ellipse cx="265" cy="82" rx="12" ry="8"/><ellipse cx="325" cy="82" rx="12" ry="8"/>
+    </g>
+    <g fill="#f6efe0">
+      <ellipse cx="85" cy="112" rx="14" ry="16"/><ellipse cx="190" cy="122" rx="14" ry="16"/><ellipse cx="295" cy="112" rx="14" ry="16"/>
+    </g>
+    <g fill="#3b2314">
+      <circle cx="76" cy="98" r="3.5"/><circle cx="94" cy="98" r="3.5"/>
+      <circle cx="181" cy="108" r="3.5"/><circle cx="199" cy="108" r="3.5"/>
+      <circle cx="286" cy="98" r="3.5"/><circle cx="304" cy="98" r="3.5"/>
+    </g>
+    <g fill="none" stroke="#e9dfc6" stroke-width="5" stroke-linecap="round">
+      <path d="M62 72 q-10 -22 -22 -20"/><path d="M108 72 q10 -22 22 -20"/>
+      <path d="M167 82 q-10 -22 -22 -20"/><path d="M213 82 q10 -22 22 -20"/>
+      <path d="M272 72 q-10 -22 -22 -20"/><path d="M318 72 q10 -22 22 -20"/>
+    </g>
+    <!-- ripas da carroceria -->
+    <g fill="#efe9da">
+      <rect x="22" y="14" width="12" height="198"/><rect x="62" y="14" width="12" height="198"/>
+      <rect x="102" y="14" width="12" height="198"/><rect x="142" y="14" width="12" height="198"/>
+      <rect x="182" y="14" width="12" height="198"/><rect x="222" y="14" width="12" height="198"/>
+      <rect x="262" y="14" width="12" height="198"/><rect x="302" y="14" width="12" height="198"/>
+      <rect x="342" y="14" width="12" height="198"/>
+    </g>
+    <rect x="0" y="0" width="390" height="16" rx="8" fill="#d8d0bb"/>
+    <rect x="0" y="206" width="390" height="22" fill="#cfc6ae"/>
+
+    <!-- cabine -->
+    <path d="M400 70 H500 Q536 70 548 110 L560 160 V226 H400Z" fill="#F47920"/>
+    <path d="M418 88 H492 Q516 88 524 118 L530 146 H418Z" fill="#cfe8f2"/>
+    <rect x="552" y="190" width="14" height="26" rx="6" fill="#fff4c2"/>
+    <rect x="396" y="214" width="180" height="16" rx="6" fill="#2b2b2b"/>
+
+    <!-- chassi e rodas -->
+    <rect x="0" y="228" width="570" height="22" fill="#1d1d1d"/>
+    <g fill="#111"><circle cx="90" cy="254" r="38"/><circle cx="178" cy="254" r="38"/><circle cx="470" cy="254" r="38"/></g>
+    <g fill="#9aa39d"><circle cx="90" cy="254" r="15"/><circle cx="178" cy="254" r="15"/><circle cx="470" cy="254" r="15"/></g>
+  </g>
+</svg>

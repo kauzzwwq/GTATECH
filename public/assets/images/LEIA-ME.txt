@@ -1,0 +1,14 @@
+FOTO DA TELA DE LOGIN
+---------------------
+Salve aqui uma foto de caminhão boiadeiro com o nome EXATO:
+
+    login-boiadeiro.jpg
+
+Ela aparece sozinha no lado esquerdo da tela de login.
+Se o arquivo não existir, o sistema mostra o desenho "login-transporte.svg".
+
+Dicas:
+- Prefira foto deitada (paisagem) ou quadrada, com pelo menos 1200 px de largura.
+- Use fotos livres (Pexels, Unsplash, Pixabay) ou fotos suas.
+- O texto branco fica por cima da parte de baixo da foto, então escolha uma
+  foto em que o caminhão não esteja colado na borda de baixo.

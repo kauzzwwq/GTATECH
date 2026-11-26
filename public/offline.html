@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#003087">
+<title>Sem conexão — Notas de Transporte Animal</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#F2F5FA;color:#1C1C1E}
+  main{background:#fff;border:1px solid #E1E6EF;border-radius:14px;padding:34px 28px;max-width:420px;width:100%;text-align:center;box-shadow:0 10px 40px rgba(0,33,102,.1)}
+  img{height:40px;width:auto;margin-bottom:18px}
+  h1{margin:0 0 8px;font-size:1.35rem;color:#002166}
+  h1::after{content:"";display:block;width:44px;height:4px;border-radius:4px;background:#F47920;margin:10px auto 0}
+  p{color:#636366;margin:14px 0 22px}
+  button{border:0;border-radius:10px;background:#003087;color:#fff;font:inherit;font-weight:700;padding:11px 22px;cursor:pointer}
+  button:hover{background:#002166}
+</style>
+</head>
+<body>
+<main>
+  <img src="assets/images/Logo-SENAI_EP.png" alt="SENAI">
+  <h1>Sem conexão</h1>
+  <p>Não foi possível falar com o servidor. Confira o sinal de internet e tente de novo. As notas só aparecem com conexão, para sempre mostrar os dados atualizados.</p>
+  <button type="button" onclick="location.reload()">Tentar novamente</button>
+</main>
+</body>
+</html>
